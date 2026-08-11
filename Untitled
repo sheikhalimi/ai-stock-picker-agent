@@ -1,0 +1,1 @@
+uv run python -c "from stock_picker.crew import StockPicker; print(StockPicker); print([x for x in dir(StockPicker) if 'crew' in x.lower()])"
